@@ -1,0 +1,19 @@
+#BookFinder {
+    padding: 3% 7%;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 18px;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #397272;
+    border-width: 10px;    
+    width: 20%;
+    margin: 50px auto 100px auto;
+    background-color: #66BFBF;
+}

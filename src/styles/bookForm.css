@@ -1,0 +1,72 @@
+#bookForm {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+}
+
+.bookTitle {
+    margin-top: 50px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.bookImage {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.bookTitle  h1{
+    font-size: 3.5rem;    
+}
+
+.bookText {
+    margin-top: 25px;
+    width: 75%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.bookContent {
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 50px 0px;
+}
+
+.searchText {    
+    width: 60%;
+    max-width: 400px;
+    height: 60px;
+
+    border-radius: 25px 0px 0px 25px;
+
+    text-align: center;
+}
+
+.searchButton {
+    width: 50px;
+    height: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+    border-radius: 0px 25px 25px 0px;
+}
