@@ -48,9 +48,7 @@ export default props => {
         return list.map((book, key) =>
             <div className='bookCard' key={key}>
                 <h2 className='cardTitle'>{book.volumeInfo.title}</h2>
-                <img className='cardImage' 
-                    src={getLink(book.volumeInfo.imageLinks)} 
-                    alt='Book Image'>
+                <img className='cardImage' aria-hidden alt='Book Image' src={getLink(book.volumeInfo.imageLinks)}></img>
 
                 <div className='cardInfo'>
                     {renderAuthorSection(book)}
