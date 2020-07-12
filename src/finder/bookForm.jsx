@@ -25,7 +25,7 @@ export default props => {
                     value={props.description}
                 />
 
-                <a className='searchButton' 
+                <a className='searchButton' href="/#"
                    onClick={props.handleSearch}
                 >
                     <i className="fa fa-search" aria-hidden="true"></i>

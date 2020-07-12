@@ -1,6 +1,5 @@
 import '../styles/bookList.css'
 import React from 'react'
-import { render } from 'react-dom'
 
 export default props => {
 
@@ -51,7 +50,7 @@ export default props => {
                 <h2 className='cardTitle'>{book.volumeInfo.title}</h2>
                 <img className='cardImage' 
                     src={getLink(book.volumeInfo.imageLinks)} 
-                    alt="Book Image"/>
+                    alt='Book Image'>
 
                 <div className='cardInfo'>
                     {renderAuthorSection(book)}
