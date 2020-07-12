@@ -50,7 +50,7 @@ export default class BookFinder extends Component {
                     handleClear = {this.handleClear} 
                 />
                 <hr/> 
-                <BookList list={this.state.list} />
+                <BookList list={this.state.list}/>
             </section>
         )
     }
